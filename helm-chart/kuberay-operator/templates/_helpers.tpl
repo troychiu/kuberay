@@ -279,6 +279,19 @@ rules:
   - list
   - watch
 - apiGroups:
+  - scheduling.k8s.io
+  resources:
+  - podgroups
+  - workloads
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
   - ray.io
   resources:
   - rayclusters

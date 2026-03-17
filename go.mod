@@ -138,3 +138,12 @@ require (
 replace github.com/ray-project/kuberay/ray-operator => ./ray-operator
 
 replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20250707201910-8d1bb00bc6a7
+
+replace (
+	k8s.io/api => k8s.io/api v0.0.0-20260312204559-404992a372c9
+	k8s.io/apimachinery => k8s.io/apimachinery v0.36.0-alpha.2.0.20260312005947-65082b639303
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20260312205103-c07c271a94ae
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20260312211654-52628939cae4
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20260311132547-3d250a3e11dc
+	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.23.1-0.20260311125736-37c380b7405b
+)
